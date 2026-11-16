@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Red de Impulso y Vinculación Comercial</title>
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="ov" id="ov" hidden data-a="close"></div>
+<aside class="side" id="side" aria-label="Navegación principal"></aside>
+<main class="main">
+<header class="top">
+<button class="menu" id="mb" data-a="menu" aria-label="Abrir menú" aria-expanded="false"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+<div class="crumb" id="crumb"></div>
+<div class="sr"><svg class="ic" width="17" height="17" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="q" type="search" placeholder="Buscar en la red…" aria-label="Buscar en la red"></div>
+<button class="bell" id="th" data-a="theme" type="button"></button>
+<a class="bell" id="bl" href="#notificaciones" aria-label="Notificaciones (3 nuevas)"><svg class="ic" width="19" height="19" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/></svg><i></i></a>
+<a class="btn pro" href="#promocion" aria-label="Promocionar"><svg class="ic" width="17" height="17" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11v2a2 2 0 0 0 2 2h2l8 4V5L7 9H5a2 2 0 0 0-2 2Z"/><path d="M7 15v4h4M19 9a4 4 0 0 1 0 6"/></svg><span class="t">Promocionar</span></a>
+</header>
+<div class="wrap" id="view"></div>
+</main>
+<dialog id="md"></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
